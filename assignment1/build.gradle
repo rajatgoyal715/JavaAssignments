@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'io.spring.dependency-management'
 }
 
 group = 'com.rajatgoyal715'
@@ -25,7 +24,3 @@ dependencies {
     testCompile group: 'org.mockito', name: 'mockito-core', version: '3.5.7'
 
 }
-
-//test {
-//    useJUnitPlatform()
-//}
